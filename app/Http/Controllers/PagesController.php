@@ -35,4 +35,8 @@ class PagesController extends Controller
     {
         return view('auth.register');
     }
+    public function info()
+    {
+        return view('pages.info');
+    }
 }

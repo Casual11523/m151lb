@@ -21,6 +21,8 @@ Route::get('/registry','PagesController@registry');
 
 Route::get('/login', 'PagesController@login');
 
+Route::get('/info', 'PagesController@info');
+
 Auth::routes();
 
 Route::get('/logout', function ()
