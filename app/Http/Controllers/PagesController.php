@@ -39,4 +39,8 @@ class PagesController extends Controller
     {
         return view('pages.info');
     }
+    public function list()
+    {
+        return view('pages.list');
+    }
 }

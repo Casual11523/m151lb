@@ -23,6 +23,10 @@ Route::get('/login', 'PagesController@login');
 
 Route::get('/info', 'PagesController@info');
 
+Route::get('/list', 'PagesController@list');
+
+Route::get('/autos', 'AutoController@index');
+
 Auth::routes();
 
 Route::get('/logout', function ()

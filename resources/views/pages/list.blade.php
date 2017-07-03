@@ -5,10 +5,13 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Contact</div>
+                <div class="panel-heading">List</div>
 
                 <div class="panel-body">
-                    Armend Ponik<br><br> Tel.: 0764769492
+                    Armend Ponik<br><br> Tel.: 0764769492<br><br>
+                    Frederik Güggi<br><br>
+                    Dimi Schaufelberger<br><br>
+                    
                 </div>
             </div>
         </div>

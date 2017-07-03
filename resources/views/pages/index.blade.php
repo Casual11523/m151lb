@@ -8,7 +8,8 @@
                 <div class="panel-heading">Willkommen</div>
 
                 <div class="panel-body">
-                    You are logged in!
+                    Du bist eingelogt!<br><br> 
+                    Bitte Fahre weiter.
                 </div>
             </div>
         </div>
