@@ -11,6 +11,22 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/','PagesController@index');
+
+Route::get('/home', 'PagesController@index');
+
+Route::get('/contact', 'PagesController@contact');
+
+Route::get('/registry','PagesController@registry');
+
+Route::get('/login', 'PagesController@login');
+
+Auth::routes();
+
+Route::get('/logout', function ()
+{
+    Auth::logout();
+    return redirect('/');
 });
+
+Route::auth();
