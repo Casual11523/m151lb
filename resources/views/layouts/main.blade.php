@@ -32,14 +32,14 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <li class="{{ Request::is('/') ? 'active' : '' }}"><a href="{{ url('/') }}">Home</a></li>
-                    <li class="{{ Request::is('contact') ? 'active' : '' }}"><a href="{{ url('contact') }}">Contact</a></li>
+                    <li class="{{ Request::is('contact') ? 'active' : '' }}"><a href="{{ url('contact') }}">Kontakt</a></li>
                     <li class="{{ Request::is('info') ? 'active' : '' }}"><a href="{{ url('info') }}">Info</a></li>
-                    <li class="{{ Request::is('list') ? 'active' : '' }}"><a href="{{ url('list') }}">List</a></li>
+                    <li class="{{ Request::is('list') ? 'active' : '' }}"><a href="{{ url('list') }}">Liste</a></li>
                     <li class="{{ Request::is('autos') ? 'active' : '' }}"><a href="{{ url('autos') }}">Autos</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     @if (Auth::guest())
-                    <li><a href="{{ route('register') }}"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="{{ route('register') }}"><span class="glyphicon glyphicon-user"></span> Registrieren</a></li>
                     <li><a href="{{ route('login') }}"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                     @else
                     <li><p class="navbar-text">Angemeldet als: <b>{{ Auth::user()->name }}</b></a></p></li>

@@ -5,11 +5,14 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Contact</div>
+                <div class="panel-heading">Kontakt</div>
 
                 <div class="panel-body">
                     Armend Ponik<br><br> Tel.: 0764769492
                 </div>
+                <!--Google API Anbindung-->
+                <iframe width="750" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=berg%20&key=AIzaSyDX6T64UbmjXWHUFD6E2LRDrmJlWrGHac0" allowfullscreen>
+                </iframe>
             </div>
         </div>
     </div>
