@@ -8,19 +8,27 @@
                 <div class="panel-heading">Auto Liste</div>
 
                 <div class="panel-body">
-                  <div class="table-responsive" >
-                      <table class="table table-hover" >
-                          <tr>
-                              <th>Auto ID</th>
-                              <th>Marke</th>
-                              <th>Modell</th>
-                              <th>Leistung in PS</th>
-                          </tr>
-                          <?php
-                            foreach ($autos as $auto) {
-                                echo '<tr class="clickable-row" data-href="/"><td>',$auto->autoId,'</td><td>',$auto->marke,'</td><td>',$auto->modell,'</td><td>',$auto->hp,'</td></tr>';     
-                            }
-                          ?>
+                  <div class="table-responsive">
+                      <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Auto ID</th>
+                                <th>Marke</th>
+                                <th>Modell</th>
+                                <th>Leistung in PS</th>
+                            </tr>
+                          </thead>
+                          <!--List of Autos generate-->
+                          <tbody>                            
+                              @foreach ($autos as $auto)
+                                  <tr class="clickable-row" data-href="/">
+                                    <td>{{ $auto->autoId }}</td>
+                                    <td>{{ $auto->marke }}</td>
+                                    <td>{{ $auto->modell }}</td>
+                                    <td>{{ $auto->hp }}</td>
+                                  </tr>     
+                             @endforeach
+                          </tbody>
                       </table>
                   </div>
                 </div>

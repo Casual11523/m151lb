@@ -37,10 +37,10 @@ class PagesController extends Controller
     }
     public function info()
     {
-        return view('pages.info');
-    }
+       return view('pages.info');
+    }/**
     public function list()
     {
         return view('pages.list');
-    }
+    }*/
 }

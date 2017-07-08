@@ -11,6 +11,7 @@ class CreateAutosTable extends Migration
      *
      * @return void
      */
+    // List of Autos
     public function up()
     {
         Schema::create('autos', function (Blueprint $table) {

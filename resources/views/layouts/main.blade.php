@@ -34,7 +34,7 @@
                     <li class="{{ Request::is('/') ? 'active' : '' }}"><a href="{{ url('/') }}">Home</a></li>
                     <li class="{{ Request::is('contact') ? 'active' : '' }}"><a href="{{ url('contact') }}">Kontakt</a></li>
                     <li class="{{ Request::is('info') ? 'active' : '' }}"><a href="{{ url('info') }}">Info</a></li>
-                    <li class="{{ Request::is('list') ? 'active' : '' }}"><a href="{{ url('list') }}">Liste</a></li>
+                    <!--<li class="{{ Request::is('list') ? 'active' : '' }}"><a href="{{ url('list') }}">Liste</a></li>-->
                     <li class="{{ Request::is('autos') ? 'active' : '' }}"><a href="{{ url('autos') }}">Autos</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">

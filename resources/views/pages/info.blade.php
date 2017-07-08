@@ -6,9 +6,9 @@
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
                 <div class="panel-heading">Info</div>
-
+                <!--put the loggin name on view-->
                 <div class="panel-body">
-                    You are logged in!
+                    Willkommen Sie sind angemeldet als: {{ Auth::user()->name }}
                 </div>
             </div>
         </div>

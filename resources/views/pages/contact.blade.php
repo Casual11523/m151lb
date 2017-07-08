@@ -11,7 +11,7 @@
                     Armend Ponik<br><br> Tel.: 0764769492
                 </div>
                 <!--Google API Anbindung-->
-                <iframe width="750" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=berg%20&key=AIzaSyDX6T64UbmjXWHUFD6E2LRDrmJlWrGHac0" allowfullscreen>
+                <iframe width="748" height="450" frameborder="12" style="border:20" src="https://www.google.com/maps/embed/v1/place?q=berg%20&key=AIzaSyDX6T64UbmjXWHUFD6E2LRDrmJlWrGHac0" allowfullscreen>
                 </iframe>
             </div>
         </div>
